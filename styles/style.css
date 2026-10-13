@@ -8,13 +8,15 @@
   z-index: 0;
 }
 
+
 /* ============ ШАПКА ============ */
 
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 50px;
+  min-height: 293px;
+  padding: 0 50px;
 }
 
 .header__menu {
@@ -63,6 +65,7 @@
   max-width: 240px;
 }
 
+
 /* ============ АДРЕС ============ */
 
 .address {
@@ -82,12 +85,13 @@
   margin-top: 4px;
 }
 
+
 /* ============ ОБЛОЖКА ============ */
 
 .cover {
   position: relative;
-  min-height: 757px;
-  padding: 165px 50px 51px;
+  min-height: 600px;
+  padding: 130px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
@@ -103,8 +107,8 @@
   display: flex;
   flex-direction: column;
   font-weight: 700;
-  font-size: 100px;
-  line-height: 1.15;
+  font-size: 80px;
+  line-height: 1.1;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -129,7 +133,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 106px;
+  margin-top: 80px;
 }
 
 .cover__description-text {
@@ -153,16 +157,17 @@
   background-color: transparent;
 }
 
+
 /* ============ ЛОТЫ ============ */
 
 .lots {
-  padding: 180px 24px 0;
+  padding: 120px 24px 0;
 }
 
 .lots__heading {
   margin-left: 40px;
   margin-bottom: 27px;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 100%;
   font-weight: 700;
   text-transform: uppercase;
@@ -224,8 +229,8 @@
 }
 
 .card__text {
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 18px;
+  line-height: 115%;
 }
 
 .lots__look-more-link {
@@ -238,21 +243,20 @@
   text-underline-offset: 4px;
 }
 
+
 /* ============ ОБ АУКЦИОНЕ ============ */
 
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  gap: 25px;
-  padding: 148px 24px 0;
+  grid-template-columns: 240px 1fr;
+  gap: 60px;
+  padding: 100px 24px 0;
 }
 
 .about__column:first-child {
-  display:flex;
+  display: flex;
   justify-content: center;
-}
-
-.about__logo {
+}.about__logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,7 +272,7 @@
 
 .about__title {
   margin-top: 3px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   font-size: 40px;
   line-height: 100%;
   font-weight: 700;
@@ -278,10 +282,11 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   font-size: 20px;
   line-height: 24px;
 }
+
 
 /* ============ ПОДВАЛ ============ */
 
@@ -289,7 +294,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   gap: 20px;
-  padding: 180px 50px 0;
+  padding: 120px 50px 0;
   min-height: 180px;
 }
 
